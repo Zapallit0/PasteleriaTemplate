@@ -17,8 +17,8 @@
 ### ✨ About Digital Rescue Portfolio:
 ** This project is proudly part of the Digital Rescue Portfolio, a collection of creative and functional web solutions. Whether you’re looking for templates, custom websites, or inspiration, Digital Rescue has you covered! **
 
-###🌐 Demo
+### 🌐 Demo
 Check out the live demo here: Demo Link (Update with your demo URL, if available)
 
-###🧁 Contribution
+### 🧁 Contribution
 Feel free to contribute to this project by submitting a pull request or opening an issue. Suggestions and ideas to improve this template are always welcome!
