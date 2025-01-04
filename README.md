@@ -2,7 +2,7 @@
 
 ## Welcome to the Dessert Shop Website Template repository! This project is a fully customizable template designed for dessert shops, bakeries, or anyone in the confectionery business who wants a beautiful and modern website.
 
-###🌟 Features
+### 🌟 Features
     - Responsive Design: Looks great on all devices, from mobile to desktop.
     - Customizable Layout: Easily adjust colors, fonts, and images to fit your brand.
     - Product Showcase: Highlight your desserts with a visually appealing gallery.
