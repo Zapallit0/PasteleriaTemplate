@@ -1,76 +1,73 @@
-
-
-
-
-h1{
-    display: flex;
-    align-items: center;
-    nav-up: 100;
-    width: 100px;
-    gap: 30px;
-    padding: 0px 20px 10px 10px;
-
-}
-.logo {
-    display: flex;
-    gap: 30px;
-    width: 100px;
-
-}
-
-h2 ,body {
+body {
     margin: 0;
-    padding: 0;
-    color: aqua;    
-}
-/*adsds */
-
-
-.navbar{
+    font-family: "Arial", sans-serif;
+    background-color: #ffe8f0;
+    color: #333;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .navbar {
     display: flex;
-    color:chartreuse;
-    align-items:center;
-
-padding: 10px 20px;
-background-color: yellow;    
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/ 
-
-}
-
-.nav-links{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: sticky; /* Mantén la barra fija en la parte superior */
+    top: 0;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .nav-links {
     display: flex;
-align-items: center; 
-   gap: 30px;
-}
-
-
-
-
-.hero-image{
-    width: 600px;
-    padding: 10px 225px;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 800px;
     height: auto;
     display: block;
-    max-width: 800px; /* Ancho máximo */
-
-}
-
-
-.text-overlay {
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  .text-overlay {
     position: absolute;
-    top: 50%; /* Centra verticalmente */
-    left: 50%; /* Centra horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta el punto de referencia */
-    color: white; /* Color del texto */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     text-align: center;
     padding: 20px;
-    border-radius: 8px; /* Redondeo del fondo del texto */
+    border-radius: 10px;
   }
-
+  
   .text-overlay h1 {
     margin: 0;
     font-size: 36px;
-    font-weight:bold ;
+    font-weight: bold;
   }
   
   .text-overlay h2 {
@@ -78,22 +75,21 @@ align-items: center;
     font-size: 18px;
     font-weight: 400;
   }
-
-  .imagen-center {
-width: 400px;
-padding: 20px;
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
-
-  *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-  .imagen-center,
-  .imagene {
-    width: 300px; /* Ajusta el ancho */
-    padding: 20px;
+  
+  .gallery-item {
+    width: 300px;
     height: auto;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
   }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  

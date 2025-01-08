@@ -25,13 +25,15 @@ function App() {
     </h2>
   </div>
 </div>
-
-<div> <img src={imagee} alt="imagen center" className="imagen-center" />
-
-</div>
-  
-  <div><img src={imagene} alt="imagene" className="imagene" />
-  </div>
+        {/* Galería de imágenes */}
+        <section className="gallery">
+          <div className="gallery-item">
+            <img src={imagene} alt="Imagen 1" className="gallery-image" />
+          </div>
+          <div className="gallery-item">
+            <img src={imagee} alt="Imagen 2" className="gallery-image" />
+          </div>
+        </section>
   { }
   </>
   )
