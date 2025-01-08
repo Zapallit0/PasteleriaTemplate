@@ -1,0 +1,99 @@
+
+
+
+
+h1{
+    display: flex;
+    align-items: center;
+    nav-up: 100;
+    width: 100px;
+    gap: 30px;
+    padding: 0px 20px 10px 10px;
+
+}
+.logo {
+    display: flex;
+    gap: 30px;
+    width: 100px;
+
+}
+
+h2 ,body {
+    margin: 0;
+    padding: 0;
+    color: aqua;    
+}
+/*adsds */
+
+
+.navbar{
+    display: flex;
+    color:chartreuse;
+    align-items:center;
+
+padding: 10px 20px;
+background-color: yellow;    
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/ 
+
+}
+
+.nav-links{
+    display: flex;
+align-items: center; 
+   gap: 30px;
+}
+
+
+
+
+.hero-image{
+    width: 600px;
+    padding: 10px 225px;
+    height: auto;
+    display: block;
+    max-width: 800px; /* Ancho máximo */
+
+}
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta el punto de referencia */
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px; /* Redondeo del fondo del texto */
+  }
+
+  .text-overlay h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight:bold ;
+  }
+  
+  .text-overlay h2 {
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .imagen-center {
+width: 400px;
+padding: 20px;
+  }
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+  .imagen-center,
+  .imagene {
+    width: 300px; /* Ajusta el ancho */
+    padding: 20px;
+    height: auto;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+  }
