@@ -1,15 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar'
 import heroImage from './resources/23.png'
 import imagene from './resources/45.png'
-import imagee from './resources/46.png'
-
+import imagee from './resources/46.png';
+import Footer from './components/footer'
 function App() {
   return (
   <>
   <header>
 { /* comentario */ }
    <Navbar /> 
+
   </header>
   <div className="image">
   <img
@@ -35,6 +36,7 @@ function App() {
           </div>
         </section>
   { }
+  <Footer />
   </>
   )
   }
