@@ -111,6 +111,7 @@ function App() {
           <div>
             <input type="text" placeholder='Correo Electronico'/>
             <button>Suscribete</button>
+            <img src={CaramelCupcake} alt="" height='200px'/>
           </div>
         </section>
     </main>

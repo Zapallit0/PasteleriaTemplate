@@ -1,5 +1,16 @@
+html{
+    background-color: var(--PalePink);
+}
 *{
     font-family: "Sour Gummy", sans-serif;
     padding: 0;
     margin: 0;
+}
+:root{
+    --DarkJungle:#1B2021;
+    --OuterSpace:#30343F;
+    --RoseGarnet:#89023E;
+    --Watermelon:#EA638C;
+    --PalePink:#FFD9DA;
+    --LavenderBlush:#fdf2f6;
 }
