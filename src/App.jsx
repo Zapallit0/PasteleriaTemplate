@@ -106,16 +106,55 @@ function App() {
           </div>
           <img src="" alt="" />
         </section>
+        <section>
+          <p>Suscribete para Descuentos y Cupones</p>
+          <div>
+            <input type="text" placeholder='Correo Electronico'/>
+            <button>Suscribete</button>
+          </div>
+        </section>
     </main>
     <footer>
-        <section className="contact">
-            <h2>Contact Us</h2>
-            <address>
-                Email: <a href="mailto:example@domain.com">example@domain.com</a>
-                Phone: <a href="tel:+1234567890">(123) 456-7890</a>
-            </address>
+        <section className="info">
+            <div>
+              <ul>
+                <li>Ubicacion</li>
+                <li>Distrito Numero1</li>
+                <li>Calle Las Florecitas</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Atención:</li>
+                <li>Lunes-Viernes</li>
+                <li>12:00 am- 5:00 pm</li>
+                <li>Sábado</li>
+                <li>10:00 am - 6:00 pm</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Recetario</a></li>
+                <li><a href="">Pasteles</a></li>
+                <li><a href="">Nosotros</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li>Club Galletas</li>
+                <li>Club Pasteles</li>
+                <li>Club Especial</li>
+              </ul>
+            </div>
         </section>
-        <p> Desarrollado por Digital Rescue.</p>
+        <section>
+          <img src="" alt="" />
+          <h2></h2>
+          <div className="Redes">
+            
+          </div>
+        </section>
     </footer>
     </>
   )
