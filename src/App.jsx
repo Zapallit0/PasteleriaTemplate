@@ -31,15 +31,15 @@ function App() {
             </ul>
             {/*Redes*/}
             <ul className='Redes'>
-              <li className='Red'><a href=""><img src={Instagram} alt="Instagram" /></a></li>
-              <li className='Red'><a href=""><img src={Youtube} alt="Youtube" /></a></li>
-              <li className='Red'><a href=""><img src={Ex} alt="Tiktok" /></a></li>
+              <li className='Red'><a href="#"><img src={Instagram} alt="Instagram" /></a></li>
+              <li className='Red'><a href="#"><img src={Youtube} alt="Youtube" /></a></li>
+              <li className='Red'><a href="#"><img src={Ex} alt="Tiktok" /></a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section className="home">
-          <img src={HeroImg} alt="" height="400px"/>
+          <img src={HeroImg} alt="Imagen principal del sitio" height="400px"/>
           <div className='HeroTxt'>
             <h1>Nombre Pasteleria</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et necessitatibus, doloremque deleniti ipsum corporis nisi </p>
@@ -47,39 +47,39 @@ function App() {
         </section>
         <section className="TwoOptions">
             <div>
-              <img src={PCupcakes} alt="" height="400px"/>
+              <img src={PCupcakes} alt="Imagen de pasteles y cupcakes" height="400px"/>
               <div>
-                <img src={Cupcake} alt="" height="100px"/>
+                <img src={Cupcake} alt="Icono cupcake" height="100px"/>
                 <h3>Pasteles y Cupcakes</h3>
               </div>
             </div>
             <div>
-              <img src={Menu} alt="" height="400px"/>
+              <img src={Menu} alt="Imagen del Menu" height="400px"/>
               <div>
                 <h3>Menu</h3>
-                <img src={Donnut} alt="" height="100px"/>
+                <img src={Donnut} alt="Icono de Dona" height="100px"/>
               </div>
             </div>
         </section>
         <section className='CupcakesCourusel'>
           <h3>!Lo más fresco¡</h3>
           <div>
-            <div><img src={BananaCupcake} alt="" height="200px"/></div>
+            <div><img src={BananaCupcake} alt="Banana Cupcake" height="200px"/></div>
             <h5>Cupcake#1</h5>
             <p>desde S/5</p>
           </div>
           <div>
-            <div><img src={VanillaCupcake} alt="" height="200px"/></div>
+            <div><img src={VanillaCupcake} alt="Vanilla Cupcake" height="200px"/></div>
             <h5>Cupcake#2</h5>
             <p>desde S/6</p>
           </div>
           <div>
-            <div><img src={ChocolateCupcake} alt="" height="200px"/></div>
+            <div><img src={ChocolateCupcake} alt="Chocolate Cupcake" height="200px"/></div>
             <h5>Cupcake#3</h5>
             <p>desde S/7</p>
           </div>
           <div>
-            <div><img src={ChocoChipsCupcake} alt="" height="200px"/></div>
+            <div><img src={ChocoChipsCupcake} alt="Choco Chips Cupcake" height="200px"/></div>
             <h5>Cupcake#4</h5>
             <p>desde S/8</p>
           </div>
@@ -88,50 +88,45 @@ function App() {
           </button>
         </section>
         <section className='Milshakes'>
-          <img src="" alt="" />
+          <img src="" alt="Imagen de milkshake" />
           <div className='CouruselMilshake'>
             <h3>¿Con qué los tomamos?</h3>
             <div>
               <h5>Fruity</h5>
-              <img src="" alt="" />
+              <img src="" alt="Imagen de milkshake frutal" />
             </div>
           </div>
         </section>
         <section className='Process'>
           <h3>Nuestro Proceso</h3>
           <div>
-            <img src="" alt="" />
+            <img src="" alt="Flecha 1" />
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ullam, nostrum aperiam, voluptatem, quas soluta quos aliquam natus quo accusamus sed doloremque vel beatae. Vitae omnis minima est praesentium corrupti.</p>
-            <img src="" alt="" />
+            <img src="" alt="Flecha 2" />
           </div>
-          <img src="" alt="" />
         </section>
-        <section>
+        <section className='Subscription'>
           <p>Suscribete para Descuentos y Cupones</p>
           <div>
-            <input type="text" placeholder='Correo Electronico'/>
-            <button>Suscribete</button>
-            <img src={CaramelCupcake} alt="" height='200px'/>
+            <input type="email" placeholder='Correo Electronico'/>
+            <button>Suscríbete</button>
+            <img src={CaramelCupcake} alt="Cupcake de caramelo" height='200px'/>
           </div>
         </section>
     </main>
     <footer>
         <section className="info">
+              <address>
+                <p>Ubicacion</p>
+                <p>Distrito Numero1</p>
+                <p>Calle Las Florecitas</p>
+              </address>
             <div>
-              <ul>
-                <li>Ubicacion</li>
-                <li>Distrito Numero1</li>
-                <li>Calle Las Florecitas</li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li>Atención:</li>
-                <li>Lunes-Viernes</li>
-                <li>12:00 am- 5:00 pm</li>
-                <li>Sábado</li>
-                <li>10:00 am - 6:00 pm</li>
-              </ul>
+                <h4>Atención:</h4>
+                <p>Lunes-Viernes</p>
+                <p>12:00 am- 5:00 pm</p>
+                <p>Sábado</p>
+                <p>10:00 am - 6:00 pm</p>
             </div>
             <div>
               <ul>
@@ -153,7 +148,15 @@ function App() {
           <img src="" alt="" />
           <h2></h2>
           <div className="Redes">
+            <div><img src="" alt="" />
             
+            </div>
+            <div><img src="" alt="" />
+            
+            </div>
+            <div><img src="" alt="" />
+            
+            </div>
           </div>
         </section>
     </footer>
