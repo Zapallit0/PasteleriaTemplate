@@ -1,0 +1,30 @@
+.NavBar{
+    max-width: 80%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.LogoHeader{
+    filter: invert(11%) sepia(96%) saturate(3363%) hue-rotate(320deg) brightness(86%) contrast(107%);
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.Opciones{
+    gap: 3rem;
+}
+.Opciones li a{
+    text-decoration: none;
+    color: var(--RoseGarnet);
+    font-size: 1.2rem;
+}
+.Redes {
+    gap: 1rem;
+}
+.Redes li img{
+    filter: invert(11%) sepia(96%) saturate(3363%) hue-rotate(320deg) brightness(86%) contrast(107%);
+}
