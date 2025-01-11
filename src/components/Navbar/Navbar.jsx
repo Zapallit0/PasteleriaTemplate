@@ -9,7 +9,7 @@ function Navbar() {
     <header>
     <nav className='NavBar'>
       {/* Logo Icono */}
-      <img className='LogoHeader' src={NumNum} alt="Logo DigitalRescue" height="60px" />
+      <a href="" className='LogoHeader'><img src={NumNum} alt="Logo DigitalRescue" height="60px" /></a>
       {/* Opciones */}
       <ul className='Opciones'>
           <li><a href="HomePage">Home</a></li>

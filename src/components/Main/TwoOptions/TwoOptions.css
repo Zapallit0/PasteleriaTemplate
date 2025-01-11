@@ -1,0 +1,58 @@
+.TwoOptions{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.Option{
+    width: 45%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Option img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: filter 0.5s ease;
+}
+.Option:hover img {
+    filter: brightness(0.5);
+}
+.IconContainer{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.IconContainer h3{
+    color: white;
+    font-size: 3rem;
+    margin-left: 10px;
+}
+.IconContainer img{
+    height: 350px;
+    object-fit: fill;
+    filter: invert(58%) sepia(14%) saturate(5293%) hue-rotate(305deg) brightness(96%) contrast(90%);
+}
+.Option:hover .IconContainer{
+    opacity: 1;
+}
+.Option:hover .IconContainer img {
+    filter: invert(58%) sepia(14%) saturate(5293%) hue-rotate(305deg) brightness(96%) contrast(90%);
+}
+.Option2{
+
+}
+.Option1 .IconContainer{
+    transform: translateX(-25%);
+}
+.Option2 .IconContainer{
+    transform: translateX(30%);
+}
+
