@@ -8,6 +8,7 @@
 .HeroImg{
     overflow: hidden;
     border-radius: inherit;
+    z-index: 5;
 }
 .Hero img{
     width: 70vw;
@@ -29,15 +30,17 @@
     height: 100%;
     border-radius: inherit;
     pointer-events: none;
+
 }
 .Hero::before {
     background: var(--Watermelon);
     top: 13px;
     left: 13px;
-    z-index: -1;
+    z-index: 0;
 }
 .Hero::after {
     background: linear-gradient(to bottom, transparent, black);
+    z-index: 8;
 }
 .HeroTxt{
     width: 80%;
@@ -45,7 +48,7 @@
     bottom: 0;
     margin-bottom: 5rem;
     color: white;
-    z-index: 1;
+    z-index: 15;
 }
 .HeroTxt h1{
     font-size: 5rem;

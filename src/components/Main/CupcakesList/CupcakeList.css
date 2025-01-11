@@ -1,0 +1,23 @@
+.CupcakesList{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    gap: 4rem;
+    width:80vw;
+}
+.CupcakesList h3{
+    font-size: 3rem;
+}
+.Cupcakes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Cupcakes .Cupcake{
+    width: 25%;
+    height: 50;
+}
+.Cupcake img{
+    width: 50%;
+    height: 50%;
+}
