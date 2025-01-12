@@ -1,0 +1,57 @@
+.NavBar{
+    max-width: 80%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.LogoHeader{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    cursor:auto;
+}
+.LogoHeader img{
+    filter: invert(11%) sepia(96%) saturate(3363%) hue-rotate(320deg) brightness(86%) contrast(107%);
+}
+.LogoHeader img:hover{
+    cursor: pointer;
+    scale: 1.1;    
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.Opciones{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.Opciones li a{
+    text-decoration: none;
+    color: var(--RoseGarnet);
+    font-size: 1.2rem;
+}
+.Redes {
+    width: 20%;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.Redes a {
+    display: flex;
+    padding: 5px;
+}
+.Redes li img{
+    filter: invert(11%) sepia(96%) saturate(3363%) hue-rotate(320deg) brightness(86%) contrast(107%);
+}
+.Redes li:hover{
+    background-color: var(--RoseGarnet);
+    border-radius: 10px;
+}
+.Redes li:hover img{
+    filter: invert(87%) sepia(20%) saturate(480%) hue-rotate(307deg) brightness(98%) contrast(110%);
+}
