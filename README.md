@@ -15,7 +15,7 @@
     - ReactJS
     
 ### ✨ About Digital Rescue Portfolio:
-** This project is proudly part of the Digital Rescue Portfolio, a collection of creative and functional web solutions. Whether you’re looking for templates, custom websites, or inspiration, Digital Rescue has you covered! **
+**This project is proudly part of the Digital Rescue Portfolio, a collection of creative and functional web solutions. Whether you’re looking for templates, custom websites, or inspiration, Digital Rescue has you covered! **
 
 ### 🌐 Demo
 Check out the live demo here: Demo Link (Update with your demo URL, if available)
